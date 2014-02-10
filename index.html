@@ -6,19 +6,19 @@
     <title>Label Tabs</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.labelTab.js" type="text/javascript"></script>
+    <script src="js/jquery.labelTabs.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(function () {
-            $('.labelTab').labelTab();
+            $('.labelTabs').labelTabs();
         });
     </script>
 </head>
 <body>
     <form id="form1">
-        <label for="textField" class="labelTab">Text Field</label><br />
+        <label for="textField" class="labelTabs">Text Field</label><br />
         <input type="text" id="textField" />
         <br />
-        <label for="list" class="labelTab selectLabel">Select an Option</label><br />
+        <label for="list" class="labelTabs selectLabel">Select an Option</label><br />
         <select id="list">
             <option value="" selected></option>
             <option value="item1">Item 1</option>
@@ -26,7 +26,7 @@
             <option value="item3">Item 3</option>
         </select>
         <br />
-        <label for="textbox" class="labelTab">Text Area</label><br />
+        <label for="textbox" class="labelTabs">Text Area</label><br />
         <textarea id="textbox" cols="60" rows="5" style="width:200px; height:180px;"></textarea>
     </form>
 </body>
