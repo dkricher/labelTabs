@@ -1,3 +1,5 @@
+/* 2014 Dan Richardson */
+
 (function ($) {
     $.fn.labelTabs = function () {
         this.each(function () {
