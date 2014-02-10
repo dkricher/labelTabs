@@ -6,14 +6,14 @@ Turns form labels into a tab that matches the field.  It is meant to look like t
 <b>To use:</b>
    Include a copy of the css, a copy of jQuery and the labelTabs.js plugin in the &#60;head&#62; of your page.
 
-      <b>Example:</b>
+      Example:
          <link href="css/style.css" rel="stylesheet" type="text/css" />
          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
          <script src="js/jquery.labelTabs.js" type="text/javascript"></script>
    
    In your form, add the class "labelTabs" to your &#60;label&#62;
    
-      <b>Example:</b>
+      Example:
          <label for="textField" class="labelTabs">Text Field</label><br />
          <input type="text" id="textField" />
          
