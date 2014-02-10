@@ -1,9 +1,9 @@
 body 
 {
     line-height: 1;
-	font-family: Arial, Helvetica, Sans-Serif;
-	color:#666;
-	font-size:12px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    color:#666;
+    font-size:12px;
 }
 input[type=text],
 input[type=url],
@@ -13,9 +13,9 @@ input[type=email],
 input[type=search],
 select
 {
-	position:relative;
-	height: 25px;
-	line-height:25px;
+    position:relative;
+    height: 25px;
+    line-height:25px;
     padding:0 5px;
     border:1px solid #999;
     color:#666;
