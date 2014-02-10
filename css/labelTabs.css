@@ -1,0 +1,85 @@
+body 
+{
+    line-height: 1;
+	font-family: Arial, Helvetica, Sans-Serif;
+	color:#666;
+	font-size:12px;
+}
+input[type=text],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=email],
+input[type=search],
+select
+{
+	position:relative;
+	height: 25px;
+	line-height:25px;
+    padding:0 5px;
+    border:1px solid #999;
+    color:#666;
+    margin:0;
+    z-index:0;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+select
+{
+    padding:0 0 0 5px;
+    behavior: none !important;
+}
+option
+{
+    height:25px;
+    line-height:25px;
+    padding-left:5px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    color:#666;
+}
+textarea
+{
+    padding:8px;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    border:1px solid #999;
+    color:#666;
+}
+.labelTabs
+{
+    background-color:#fff;
+    color:#0061AA;
+    font-weight:bold;
+    font-size:12px;
+    position:absolute;
+    margin-top:10px;
+    padding:2px 5px 1px 5px;
+    border: 1px solid #999;
+    border-bottom:0;
+    transition: all 0.5s ease;
+    border-radius: 3px 3px 0 0;
+    z-index:1;
+}
+.labelTabs.focus, .labelTabs.value-set
+{
+    margin-top:6px;
+    font-size:10px;
+    padding:1px 8px 0px 2px;
+    color: #B9C8D2;
+    transition: all 0.3s ease;
+}
+.selectLabel
+{
+    background-color:transparent;
+    margin-top:12px;
+    z-index:10;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+.selectLabel.focus, .selectLabel.value-set
+{
+    background-color:#fff;
+    margin-top: 4px;
+    border-bottom:1px solid #ccc;
+    transition: all 0.3s ease;
+}
