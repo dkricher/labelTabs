@@ -8,7 +8,7 @@ To use:
 
       Example:
          <link href="css/style.css" rel="stylesheet" type="text/css" />
-	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
          <script src="js/jquery.labelTabs.js" type="text/javascript"></script>
    
    In your form, add the class "labelTabs" to your <label>
