@@ -11,7 +11,7 @@ Turns form labels into a tab that matches the field.  It is meant to look like t
          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
          <script src="js/jquery.labelTabs.js" type="text/javascript"></script>
    
-   In your form, add the class "labelTabs" to your <label>
+   In your form, add the class "labelTabs" to your &#60;label&#62;
    
       <b>Example:</b>
          <label for="textField" class="labelTabs">Text Field</label><br />
