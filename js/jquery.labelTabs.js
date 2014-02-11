@@ -32,7 +32,7 @@
                 $thislabel.removeClass('value-set');
             }
         }
-        $('input, select').each(function () {
+        $('input, select, textarea').each(function () {
             var $field = $(this);
             var $fieldId = $field.attr('id');
             var $thislabel = $('label[for="' + $fieldId + '"].labelTabs');
